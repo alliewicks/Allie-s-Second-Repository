@@ -18,3 +18,54 @@
         width: 100%;
         text-align: center;
       }
+      <html>
+<head>
+  <title>Center 4 Columns</title>
+  <style>
+    /* Center the container div */
+    .container {
+      display: flex;
+      justify-content: center;
+    }
+    
+    /* Create 4 columns in a row */
+    .column {
+      flex: 1;
+      margin: 10px;
+      text-align: center;
+      border: 1px solid black;
+    }
+    button {
+      padding: 10px 20px;
+      border: none;
+      border-radius: 5px;
+      color: white;
+      font-size: 16px;
+      cursor: pointer;
+      transition: background-color 0.5s;
+    }
+    
+    .lightgreen {
+      background-color: rgb(69, 174, 101);
+    }
+    
+    .mediumgreen {
+      background-color: green;
+    }
+    
+    .darkgreen {
+      background-color: rgb(16, 76, 36);
+    }
+    
+    .lightgreen:hover, .lightgreen:active {
+      background-color: rgb(40, 104, 59);
+    }
+    
+    .mediumgreen:hover, .mediumgreen:active {
+      background-color: rgb(0, 75, 0);
+    }
+    
+    .darkgreen:hover, .darkgreen:active {
+      background-color: rgb(3, 22, 9);
+    }
+    
